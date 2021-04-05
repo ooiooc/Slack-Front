@@ -1,0 +1,11 @@
+// 모든 화면에 공통적으로 들어갈 css 요소들을 선별하여 넣습니다.
+
+.modal { 
+  button { 
+    font-size: 1.1em;
+    svg { 
+      font-size: 0.96em !important;
+      margin: 0 4px 1px 0;
+    }
+  }
+ }
