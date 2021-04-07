@@ -5,7 +5,7 @@ export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
 
-  env: { 
+  env: {
     apiUrl:
       // 배포되었을 때과 개발할 때의 api url 입니다.
       process.env.NODE_ENV === 'production'
@@ -15,7 +15,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: '디디하우스',
+    title: 'Slack',
     htmlAttrs: {
       lang: 'ko'
     },
